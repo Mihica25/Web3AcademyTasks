@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.app {
+  max-width: 500px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 132, 255, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #3395ff;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #3395ff;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2678d3;
+}
+
+.withdrawals-info {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #2b2b2b;
+  border-radius: 8px;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.withdrawals-info h4 {
+  color: #3395ff;
+  margin-bottom: 0.5rem;
+}
